@@ -1,0 +1,46 @@
+@import url(../style/header.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url(../style/banner.css);
+@import url(../style/carrosel.css);
+@import url(../style/saibamais.css);
+@import url(../style/footer.css);
+:root{
+
+--cor-de-fundo: #ebecee;
+--branco: #ffff ;
+--laranja: rgba(235, 155, 0, 1);
+--azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+--fonte-principal: 'Poppins';
+--fonte-secundaria:'Josefin Sans';
+
+
+
+}
+
+
+body{
+
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+h1{
+
+
+    background-color: white;
+}
+
+
+.carrosel{
+    background-color: var(--branco);
+    color: var(--laranja);
+    text-align: center;
+    
+    }
+
+
+
+    

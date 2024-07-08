@@ -1,0 +1,225 @@
+.footer__final{
+
+    text-align:left;
+    padding: 1em;
+
+}
+
+.footer__titulo{
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #002F52;
+    padding-bottom:0.6em ;
+
+}
+
+.footer__texto{
+
+    font-size: 16px;
+    font-weight: 300;
+    color: #002F52;
+    padding-bottom:1.3em ;
+    
+
+}
+
+.busca__cadastro{
+
+    background-color: transparent;
+    border: solid 1px var(#002F52);
+    border-radius: 24px;
+    color: var(#002F52);
+    padding: 1em;
+    width: 100%;
+    
+
+}
+
+.busca__cadastro::placeholder{
+
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--azul-degrade);
+    text-align: center;
+    background-image: url(../img/Vector1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: center;
+
+
+}
+
+.final{
+
+    padding: 1.7em 1em;
+    border-top: solid 1px black;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.rodapé__titulo{
+
+    display: none;
+
+}
+.lista-rodapé{
+
+    display: none;
+
+}
+@media screen and (min-width: 1024px){
+
+    .rodapé{
+
+        display: flex;
+        justify-content: space-around;
+        padding-top: 3em;
+        border-top: 1px solid black;
+        padding-bottom: 3em;
+        
+    }
+
+.lista-rodapé{
+
+    display: block;
+}
+
+.final{
+
+    display: none;
+
+}
+
+
+.lista-rodapé__item{
+
+    display: flex;
+    align-items: center;
+    margin: 0.9em 0;
+    
+
+}
+
+.lista-rodapé__link{
+
+    color:rgba(71, 70, 70, 1);
+    text-decoration: none;
+    margin-left: 0.6em;
+
+
+}
+
+
+.rodapé__titulo{
+
+    display: block;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.lista-rodapé{
+
+    padding: 0 1em;
+
+}
+
+.lista-rodapé__titulo{
+
+    font-size: 14px;
+    color: rgba(133, 133, 133, 1);
+    ;
+
+}
+
+.footer__final{
+
+    text-align:center;
+    padding: 1em;
+
+}
+
+.busca__cadastro{
+
+    width: 40%;
+
+}
+
+.busca__cadastro::placeholder{
+
+    background-position: 5.5em;
+
+
+}
+
+.alinhar{
+
+    display: flex;
+    align-items: center;
+   
+
+}
+
+}
+
+
+@media screen and (min-width: 1728px){
+
+.tópicos{
+
+padding: 3em 33vw;
+
+}
+
+.lista-rodapé{
+
+border-left: solid 0.5px black;
+
+}
+
+.footer__final{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 3em 3em;
+    
+}
+
+.juntos{
+
+    display: flex;
+    text-align: center;
+
+}
+
+.textocome{
+
+    text-align: left;
+
+}
+
+.busca__cadastro{
+
+    width: 60%;
+    padding: 4px;
+    margin: 1.5em;
+
+}
+
+.busca__cadastro::placeholder{
+
+    background-position: 2.6em;
+
+
+}
+
+
+
+
+}
